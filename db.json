@@ -1,0 +1,84 @@
+{
+  "logs": [
+    {
+      "id": 1,
+      "message": "Server 009 broken.",
+      "attention": false,
+      "tech": "Sara Wilson",
+      "date": "2020-07-18T16:44:43.750Z"
+    },
+    {
+      "id": 3,
+      "message": "Logs not working on PC# 2",
+      "attention": false,
+      "tech": "John Doe",
+      "date": "2020-07-19T09:31:16.158Z"
+    },
+    {
+      "id": 5,
+      "message": "Printer stopped working 001",
+      "attention": true,
+      "tech": "Sam Smith",
+      "date": "2020-07-18T16:35:03.169Z"
+    },
+    {
+      "message": "Everything stopped working",
+      "attention": true,
+      "tech": "Sam Smith",
+      "date": "2020-07-19T12:51:07.842Z",
+      "id": 6
+    }
+  ],
+  "techs": [
+    {
+      "id": 1,
+      "firstName": "John",
+      "lastName": "Doe"
+    },
+    {
+      "id": 2,
+      "firstName": "Sam",
+      "lastName": "Smith"
+    },
+    {
+      "id": 3,
+      "firstName": "Sara",
+      "lastName": "Wilson"
+    }
+  ],
+  "orders": [
+    {
+      "id": 1,
+      "customerPoNumber": "US782109",
+      "address1": "12 / 4 Lake views",
+      "address2": "12 / 4 Lake view",
+      "address3": "Entity Properties Street",
+      "city": "Ontario",
+      "state": "Toranto",
+      "country": "Canada",
+      "origSysDocRef": "VTS876198CC"
+    },
+    {
+      "id": 2,
+      "customerPoNumber": "AU7823e23",
+      "address1": "Mountain road",
+      "address2": "city road sides",
+      "address3": "near Okoyahama Inc",
+      "city": "Sydney",
+      "state": "Sydney",
+      "country": "Australia",
+      "origSysDocRef": "VTS823512"
+    },
+    {
+      "id": 3,
+      "customerPoNumber": "IR763231",
+      "address1": "Ganesh Society",
+      "address2": "city pride satara road",
+      "address3": "Dhankawdi",
+      "city": "Pune",
+      "state": "Maharashtra",
+      "country": "Infia",
+      "origSysDocRef": "VTS35743"
+    }
+  ]
+}
